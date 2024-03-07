@@ -1,0 +1,98 @@
+/* Estilos para la página principal */
+body {
+    /*font-family: Arial, sans-serif;
+    background-color: #bbe6b5;
+    color: #333;*/
+    background-image: url('../img/25f1b282e9d7cc7958dd7252d3081e00.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #05140d;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las tarjetas de personajes */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #f4f3fd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #f1d7d7;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #34495e;
+    color: #fff;
+    border-radius: 5px;
+}
+/* Estilos para la imagen del título */
+.title-image {
+    margin-top: 50px; /* Espacio superior */
+    margin-bottom: 50px; /* Espacio inferior */
+}
